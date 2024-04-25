@@ -1,18 +1,9 @@
 import './App.css';
-
+import HeaderT from './Components/HeaderT.jsx';
 function App() {
   return (
     <div>
-      <header id="header" class="header">
-            <h1 class="logo">Academia Estética</h1>
-          <nav id="navmenu" class="navmenu">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#header" class="nav-link">Principal</a></li>
-              <li class="nav-item"><a href="#header" class="nav-link">Sobre nós</a></li>
-              <li class="nav-item"><a href="#header" class="nav-link">Serviços</a></li>
-            </ul>
-          </nav>
-      </header>
+      <HeaderT/>
 
       <main class="main">
           
@@ -23,6 +14,19 @@ function App() {
           <button type="submit" class="btn">Pesquisar</button>
         </form>
       </main>
+
+      <footer className="footer">
+        <div className="social-links">
+          <a href="#footer"><img src="./logo-twitter.jpg" alt="Twitter" /></a>
+          <a href="#footer"><img src="./logo-facebook.jpg" alt="Facebook" /></a>
+          <a href="#footer"><img src="./logo-instagram.jpg" alt="Instagram" /></a>
+        </div>
+        <br />
+        <p class="footer-line">© Copyright Thiago Camponêz All Rights Reserved Designed by Academia Estética.</p>
+      </footer>
+
+
+
     </div>
   );
 }
