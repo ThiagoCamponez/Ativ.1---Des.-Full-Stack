@@ -1,3 +1,32 @@
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../../public/academiaestetica5.jpg);
+  background-position-y: -120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+  overflow-y: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -6,3 +35,39 @@
     margin: 10px auto;
     animation: fade-in 0.4s;
   }
+
+.logo {
+  color: rgb(255, 123, 0);
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+}
+
+.nav {
+  padding: 15px 0;
+}
+
+.nav-list{
+  display: flex;
+  column-gap: 10px;
+}
+
+.nav-item {  
+  margin-left: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  color: rgb(255, 123, 0);
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: rgba(121, 68, 18, 0.986);
+}
+

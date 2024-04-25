@@ -1,0 +1,26 @@
+.main {
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    animation: fade-in 0.4s 0.1s backwards;
+  }
+  
+  .myh1 {
+    font-size: 35px;
+    font-weight: 700;
+    max-width: 800px;
+    margin-top: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+
+  .text {
+    font-size: 17px;
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+    opacity: 0.9;
+  }

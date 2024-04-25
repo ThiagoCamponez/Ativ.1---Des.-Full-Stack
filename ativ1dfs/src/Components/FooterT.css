@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  opacity: 0.8;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation: fade-in 0.4s 0.2s backwards;
+  bottom: 0;
+}
+
+.footer-line {
+  border-top: 1px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+  

@@ -1,0 +1,13 @@
+.lista {
+    background-color: #fff;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+.listagem {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
