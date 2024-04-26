@@ -9,7 +9,6 @@ function App() {
     {nome: 'Wesley', especialidade: 'Personal Trainer', cref: '123456'},
     {nome: 'Cristiane', especialidade: 'Personal Trainer', cref: '345678'}]
 
-
   return (
     <div>
       <HeaderT/>
@@ -21,8 +20,6 @@ function App() {
       </div>
 
       <FooterT/>
-
-
     </div>
   );
 }
