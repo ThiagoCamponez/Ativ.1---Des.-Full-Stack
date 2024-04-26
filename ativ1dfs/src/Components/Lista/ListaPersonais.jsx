@@ -1,13 +1,21 @@
 import './ListaPersonais.css';
 
-function ListaPersonais() {
+function ListaPersonais(props) {
+
+    const personais = props.personais;
+
     return ( 
         <div className="listagem">
-            <div className="lista">
-                <h1>Nome do Personal:</h1>
-                <p>Especialidade:</p>
-                <p>Cref:</p>
-            </div>
+
+            {
+                personais.map((p) => (
+                    <div className="lista" key={p.cref}>
+                        <h3>Nome do Personal: {p.nome}</h3>
+                        <p>Especialidade: {p.especialidade}</p> 
+                        <p>Cref: {p.cref}</p>
+                    </div>
+                ))
+            }
 
         </div>
      );

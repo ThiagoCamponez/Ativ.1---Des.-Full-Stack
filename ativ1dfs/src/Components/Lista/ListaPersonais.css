@@ -1,8 +1,12 @@
 .lista {
     background-color: #fff;
-    padding: 5px;
-    width: 150px;
+    padding: 10px;
+    width: 350px;
     border-radius: 10px;
+}
+
+.lista > h3, p {
+    margin-bottom: 10px;
 }
 
 
